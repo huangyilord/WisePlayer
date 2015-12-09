@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{eae88faa-f4db-4f7a-9b14-55b1e99ed25f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{d808de52-af40-473b-8b57-aa30e67f67be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\common">
+      <UniqueIdentifier>{d89233b5-eda6-473d-9549-212b998252ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\system">
+      <UniqueIdentifier>{b7b7a9ee-e6d1-4b04-ad5a-0b046418689b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\common">
+      <UniqueIdentifier>{fa366c4c-05f1-4963-a01d-450757518b87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\platforms">
+      <UniqueIdentifier>{e09f8c38-701c-48e4-95f3-0ac71820460c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\platforms\win32">
+      <UniqueIdentifier>{7b1eb6e2-8af1-41ff-aabc-b19f5ab63201}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\common\array_list.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\common\common_debug.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\common\hash_map.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\common\hash_set.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\common\hash_table.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\common\list.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\common\memory_pool.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\common\object_pool.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\common\red_black_tree.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\system\atomic.h">
+      <Filter>include\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\system\common_time.h">
+      <Filter>include\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\system\synchronize.h">
+      <Filter>include\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\system\thread.h">
+      <Filter>include\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\platforms\win32\common_typedefs.h">
+      <Filter>src\platforms\win32</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\common\array_list.c">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\hash_map.c">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\hash_set.c">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\hash_table.c">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\list.c">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\memory_pool.c">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\object_pool.c">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\red_black_tree.c">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\platforms\win32\atomic.c">
+      <Filter>src\platforms\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\platforms\win32\common_time.c">
+      <Filter>src\platforms\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\platforms\win32\synchronize.c">
+      <Filter>src\platforms\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\platforms\win32\thread.c">
+      <Filter>src\platforms\win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

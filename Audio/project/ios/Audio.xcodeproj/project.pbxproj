@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9431C24E1B60D72000E84CC5 /* TestAudio.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9431C24D1B60D72000E84CC5 /* TestAudio.mm */; };
+		9431C2521B60D8DB00E84CC5 /* OpenALAudioContext.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9443C5CC1B46382C00A96CF9 /* OpenALAudioContext.h */; };
+		9431C2531B60D8DB00E84CC5 /* IAudioContext.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9443C5A61B4530DB00A96CF9 /* IAudioContext.h */; };
+		9431C2541B60D8DB00E84CC5 /* AudioTypeDefs.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9443C5A71B453D1000A96CF9 /* AudioTypeDefs.h */; };
+		9431C2561B60D8FD00E84CC5 /* libAudio.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9443C58B1B45303A00A96CF9 /* libAudio.a */; };
+		9431C2571B60DC3C00E84CC5 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9443C5D11B463F3A00A96CF9 /* OpenAL.framework */; };
+		9443C5971B45303A00A96CF9 /* libAudio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9443C58B1B45303A00A96CF9 /* libAudio.a */; };
+		9443C5CD1B46382C00A96CF9 /* OpenALAudioContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9443C5CB1B46382C00A96CF9 /* OpenALAudioContext.cpp */; };
+		9443C5D01B4639D300A96CF9 /* OpenALInternalTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9443C5CE1B4639D300A96CF9 /* OpenALInternalTypes.cpp */; };
+		9443C5D21B463F3A00A96CF9 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9443C5D11B463F3A00A96CF9 /* OpenAL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9443C5981B45303B00A96CF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9443C5831B45303A00A96CF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9443C58A1B45303A00A96CF9;
+			remoteInfo = Audio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9431C2551B60D8E400E84CC5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(PROJECT_DIR)/../../../libs/$(PRODUCT_NAME)/lib";
+			dstSubfolderSpec = 0;
+			files = (
+				9431C2561B60D8FD00E84CC5 /* libAudio.a in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9443C5891B45303A00A96CF9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(PROJECT_DIR)/../../../libs/$(PRODUCT_NAME)/include";
+			dstSubfolderSpec = 0;
+			files = (
+				9431C2521B60D8DB00E84CC5 /* OpenALAudioContext.h in CopyFiles */,
+				9431C2531B60D8DB00E84CC5 /* IAudioContext.h in CopyFiles */,
+				9431C2541B60D8DB00E84CC5 /* AudioTypeDefs.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9431C24D1B60D72000E84CC5 /* TestAudio.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TestAudio.mm; sourceTree = "<group>"; };
+		9431C24F1B60D73A00E84CC5 /* Voice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Voice.h; sourceTree = "<group>"; };
+		9443C58B1B45303A00A96CF9 /* libAudio.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAudio.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9443C5961B45303A00A96CF9 /* AudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9443C59C1B45303B00A96CF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9443C5A61B4530DB00A96CF9 /* IAudioContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAudioContext.h; sourceTree = "<group>"; };
+		9443C5A71B453D1000A96CF9 /* AudioTypeDefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioTypeDefs.h; sourceTree = "<group>"; };
+		9443C5CB1B46382C00A96CF9 /* OpenALAudioContext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OpenALAudioContext.cpp; sourceTree = "<group>"; };
+		9443C5CC1B46382C00A96CF9 /* OpenALAudioContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenALAudioContext.h; sourceTree = "<group>"; };
+		9443C5CE1B4639D300A96CF9 /* OpenALInternalTypes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OpenALInternalTypes.cpp; sourceTree = "<group>"; };
+		9443C5CF1B4639D300A96CF9 /* OpenALInternalTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenALInternalTypes.h; sourceTree = "<group>"; };
+		9443C5D11B463F3A00A96CF9 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9443C5881B45303A00A96CF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9443C5D21B463F3A00A96CF9 /* OpenAL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9443C5931B45303A00A96CF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9431C2571B60DC3C00E84CC5 /* OpenAL.framework in Frameworks */,
+				9443C5971B45303A00A96CF9 /* libAudio.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9443C5821B45303A00A96CF9 = {
+			isa = PBXGroup;
+			children = (
+				9443C5D31B463F3E00A96CF9 /* Frameworks */,
+				9443C5A51B4530C500A96CF9 /* Audio */,
+				9443C59A1B45303B00A96CF9 /* AudioTests */,
+				9443C58C1B45303A00A96CF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9443C58C1B45303A00A96CF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9443C58B1B45303A00A96CF9 /* libAudio.a */,
+				9443C5961B45303A00A96CF9 /* AudioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9443C59A1B45303B00A96CF9 /* AudioTests */ = {
+			isa = PBXGroup;
+			children = (
+				9443C59B1B45303B00A96CF9 /* Supporting Files */,
+				9431C24D1B60D72000E84CC5 /* TestAudio.mm */,
+				9431C24F1B60D73A00E84CC5 /* Voice.h */,
+			);
+			path = AudioTests;
+			sourceTree = "<group>";
+		};
+		9443C59B1B45303B00A96CF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9443C59C1B45303B00A96CF9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9443C5A51B4530C500A96CF9 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				9443C5CA1B46380700A96CF9 /* iphoneOpenAL */,
+				9443C5A61B4530DB00A96CF9 /* IAudioContext.h */,
+				9443C5A71B453D1000A96CF9 /* AudioTypeDefs.h */,
+			);
+			name = Audio;
+			path = ../../Audio;
+			sourceTree = "<group>";
+		};
+		9443C5CA1B46380700A96CF9 /* iphoneOpenAL */ = {
+			isa = PBXGroup;
+			children = (
+				9443C5CB1B46382C00A96CF9 /* OpenALAudioContext.cpp */,
+				9443C5CC1B46382C00A96CF9 /* OpenALAudioContext.h */,
+				9443C5CE1B4639D300A96CF9 /* OpenALInternalTypes.cpp */,
+				9443C5CF1B4639D300A96CF9 /* OpenALInternalTypes.h */,
+			);
+			path = iphoneOpenAL;
+			sourceTree = "<group>";
+		};
+		9443C5D31B463F3E00A96CF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9443C5D11B463F3A00A96CF9 /* OpenAL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9443C58A1B45303A00A96CF9 /* Audio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9443C59F1B45303B00A96CF9 /* Build configuration list for PBXNativeTarget "Audio" */;
+			buildPhases = (
+				9443C5871B45303A00A96CF9 /* Sources */,
+				9443C5881B45303A00A96CF9 /* Frameworks */,
+				9443C5891B45303A00A96CF9 /* CopyFiles */,
+				9431C2551B60D8E400E84CC5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Audio;
+			productName = Audio;
+			productReference = 9443C58B1B45303A00A96CF9 /* libAudio.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9443C5951B45303A00A96CF9 /* AudioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9443C5A21B45303B00A96CF9 /* Build configuration list for PBXNativeTarget "AudioTests" */;
+			buildPhases = (
+				9443C5921B45303A00A96CF9 /* Sources */,
+				9443C5931B45303A00A96CF9 /* Frameworks */,
+				9443C5941B45303A00A96CF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9443C5991B45303B00A96CF9 /* PBXTargetDependency */,
+			);
+			name = AudioTests;
+			productName = AudioTests;
+			productReference = 9443C5961B45303A00A96CF9 /* AudioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9443C5831B45303A00A96CF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = huangyi;
+				TargetAttributes = {
+					9443C58A1B45303A00A96CF9 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					9443C5951B45303A00A96CF9 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 9443C5861B45303A00A96CF9 /* Build configuration list for PBXProject "Audio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9443C5821B45303A00A96CF9;
+			productRefGroup = 9443C58C1B45303A00A96CF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9443C58A1B45303A00A96CF9 /* Audio */,
+				9443C5951B45303A00A96CF9 /* AudioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9443C5941B45303A00A96CF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9443C5871B45303A00A96CF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9443C5CD1B46382C00A96CF9 /* OpenALAudioContext.cpp in Sources */,
+				9443C5D01B4639D300A96CF9 /* OpenALInternalTypes.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9443C5921B45303A00A96CF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9431C24E1B60D72000E84CC5 /* TestAudio.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9443C5991B45303B00A96CF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9443C58A1B45303A00A96CF9 /* Audio */;
+			targetProxy = 9443C5981B45303B00A96CF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9443C59D1B45303B00A96CF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/OpenAL.framework/Headers/,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../Audio";
+			};
+			name = Debug;
+		};
+		9443C59E1B45303B00A96CF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/OpenAL.framework/Headers/,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../Audio";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9443C5A01B45303B00A96CF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Debug;
+		};
+		9443C5A11B45303B00A96CF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Release;
+		};
+		9443C5A31B45303B00A96CF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AudioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9443C5A41B45303B00A96CF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AudioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9443C5861B45303A00A96CF9 /* Build configuration list for PBXProject "Audio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9443C59D1B45303B00A96CF9 /* Debug */,
+				9443C59E1B45303B00A96CF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9443C59F1B45303B00A96CF9 /* Build configuration list for PBXNativeTarget "Audio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9443C5A01B45303B00A96CF9 /* Debug */,
+				9443C5A11B45303B00A96CF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9443C5A21B45303B00A96CF9 /* Build configuration list for PBXNativeTarget "AudioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9443C5A31B45303B00A96CF9 /* Debug */,
+				9443C5A41B45303B00A96CF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9443C5831B45303A00A96CF9 /* Project object */;
+}

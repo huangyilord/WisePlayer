@@ -1,0 +1,870 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88D982381BF5B07600A5C3A2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D982371BF5B07600A5C3A2 /* libz.tbd */; };
+		9431C2AF1B66892600E84CC5 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9431C2AE1B66892600E84CC5 /* OpenAL.framework */; };
+		947033B61BD4E92300DC6904 /* libAudio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 947033851BD4E4ED00DC6904 /* libAudio.a */; };
+		947033B71BD4E92300DC6904 /* libcommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 947033911BD4E4F900DC6904 /* libcommon.a */; };
+		947033B81BD4E92300DC6904 /* libgraph.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9470339A1BD4E50600DC6904 /* libgraph.a */; };
+		947033B91BD4E92300DC6904 /* libGraphic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 947033A21BD4E51400DC6904 /* libGraphic.a */; };
+		947033BA1BD4E92300DC6904 /* libtask.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 947033A91BD4E52200DC6904 /* libtask.a */; };
+		9483DF281B3BEC6400306880 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9483DF271B3BEC6400306880 /* libz.1.2.5.dylib */; };
+		9483DF2B1B3BEC7100306880 /* libbz2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9483DF2A1B3BEC7100306880 /* libbz2.1.0.dylib */; };
+		9483DF2D1B3BEC8200306880 /* libiconv.2.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9483DF2C1B3BEC8200306880 /* libiconv.2.4.0.dylib */; };
+		9483DF431B3BFC4000306880 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9483DF421B3BFC4000306880 /* OpenGLES.framework */; };
+		9483DF451B3BFC5600306880 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9483DF441B3BFC5600306880 /* QuartzCore.framework */; };
+		9483DFA71B41480200306880 /* IMG_0174.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 9483DFA61B41480200306880 /* IMG_0174.MOV */; };
+		948476571B256C1C000094DE /* libWisePlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 948616AC1B1586B000E54464 /* libWisePlayer.a */; };
+		948616781B1585EB00E54464 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 948616771B1585EB00E54464 /* main.m */; };
+		9486167B1B1585EB00E54464 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9486167A1B1585EB00E54464 /* AppDelegate.m */; };
+		9486167E1B1585EB00E54464 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9486167D1B1585EB00E54464 /* ViewController.mm */; };
+		948616811B1585EB00E54464 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9486167F1B1585EB00E54464 /* Main.storyboard */; };
+		948616831B1585EB00E54464 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 948616821B1585EB00E54464 /* Images.xcassets */; };
+		948616861B1585EB00E54464 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 948616841B1585EB00E54464 /* LaunchScreen.xib */; };
+		948616921B1585EB00E54464 /* WisePlayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 948616911B1585EB00E54464 /* WisePlayerDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		947033841BD4E4ED00DC6904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9470337F1BD4E4ED00DC6904 /* Audio.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9443C58B1B45303A00A96CF9;
+			remoteInfo = Audio;
+		};
+		947033861BD4E4ED00DC6904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9470337F1BD4E4ED00DC6904 /* Audio.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9443C5961B45303A00A96CF9;
+			remoteInfo = AudioTests;
+		};
+		947033901BD4E4F900DC6904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9470338B1BD4E4F900DC6904 /* common.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 94974A051AEDD6C80079C269;
+			remoteInfo = common;
+		};
+		947033921BD4E4F900DC6904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9470338B1BD4E4F900DC6904 /* common.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 94974A7C1AEDDAA70079C269;
+			remoteInfo = commonTests;
+		};
+		947033991BD4E50600DC6904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 947033941BD4E50600DC6904 /* graph.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9463E4111AF276690073821F;
+			remoteInfo = graph;
+		};
+		9470339B1BD4E50600DC6904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 947033941BD4E50600DC6904 /* graph.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9463E41C1AF276690073821F;
+			remoteInfo = graphTests;
+		};
+		947033A11BD4E51400DC6904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9470339D1BD4E51400DC6904 /* Graphic.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 94901B0E1AD4F030008A296A;
+			remoteInfo = Graphic;
+		};
+		947033A81BD4E52200DC6904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 947033A31BD4E52200DC6904 /* task.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 94974A9C1AEDE1700079C269;
+			remoteInfo = task;
+		};
+		947033AA1BD4E52200DC6904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 947033A31BD4E52200DC6904 /* task.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 94974AA71AEDE1700079C269;
+			remoteInfo = taskTests;
+		};
+		947033AC1BD4E91700DC6904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 947033A31BD4E52200DC6904 /* task.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 94974A9B1AEDE1700079C269;
+			remoteInfo = task;
+		};
+		947033AE1BD4E91700DC6904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9470339D1BD4E51400DC6904 /* Graphic.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 94901B0D1AD4F030008A296A;
+			remoteInfo = Graphic;
+		};
+		947033B01BD4E91700DC6904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 947033941BD4E50600DC6904 /* graph.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9463E4101AF276690073821F;
+			remoteInfo = graph;
+		};
+		947033B21BD4E91700DC6904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9470338B1BD4E4F900DC6904 /* common.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 94974A041AEDD6C80079C269;
+			remoteInfo = common;
+		};
+		947033B41BD4E91700DC6904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9470337F1BD4E4ED00DC6904 /* Audio.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9443C58A1B45303A00A96CF9;
+			remoteInfo = Audio;
+		};
+		9483DFC81B4295DC00306880 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9483DFC31B4295DC00306880 /* VideoPlayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9484768D1B280DE2000094DE;
+			remoteInfo = VideoPlayer;
+		};
+		9483DFCA1B4295DC00306880 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9483DFC31B4295DC00306880 /* VideoPlayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 948476981B280DE2000094DE;
+			remoteInfo = VideoPlayerTests;
+		};
+		948476531B256C16000094DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 948616A61B1586AF00E54464 /* WisePlayer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 94584AC81A92D9EC00C65606;
+			remoteInfo = WisePlayer;
+		};
+		9486168C1B1585EB00E54464 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9486166A1B1585EB00E54464 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 948616711B1585EB00E54464;
+			remoteInfo = WisePlayerDemo;
+		};
+		948616AB1B1586B000E54464 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 948616A61B1586AF00E54464 /* WisePlayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 94584AC91A92D9EC00C65606;
+			remoteInfo = WisePlayer;
+		};
+		948616AD1B1586B000E54464 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 948616A61B1586AF00E54464 /* WisePlayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 94584AD41A92D9EC00C65606;
+			remoteInfo = WisePlayerTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88D982371BF5B07600A5C3A2 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		9431C2AE1B66892600E84CC5 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		9470337F1BD4E4ED00DC6904 /* Audio.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Audio.xcodeproj; path = ../Audio/project/ios/Audio.xcodeproj; sourceTree = "<group>"; };
+		9470338B1BD4E4F900DC6904 /* common.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = common.xcodeproj; path = ../common/project/ios/common.xcodeproj; sourceTree = "<group>"; };
+		947033941BD4E50600DC6904 /* graph.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = graph.xcodeproj; path = ../graph/project/IOS/graph.xcodeproj; sourceTree = "<group>"; };
+		9470339D1BD4E51400DC6904 /* Graphic.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Graphic.xcodeproj; path = ../Graphic/project/ios/Graphic.xcodeproj; sourceTree = "<group>"; };
+		947033A31BD4E52200DC6904 /* task.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = task.xcodeproj; path = ../task/proejct/IOS/task.xcodeproj; sourceTree = "<group>"; };
+		9483DF271B3BEC6400306880 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		9483DF2A1B3BEC7100306880 /* libbz2.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbz2.1.0.dylib; path = usr/lib/libbz2.1.0.dylib; sourceTree = SDKROOT; };
+		9483DF2C1B3BEC8200306880 /* libiconv.2.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.2.4.0.dylib; path = usr/lib/libiconv.2.4.0.dylib; sourceTree = SDKROOT; };
+		9483DF421B3BFC4000306880 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		9483DF441B3BFC5600306880 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9483DFA61B41480200306880 /* IMG_0174.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = IMG_0174.MOV; path = WisePlayerDemo/Resource/IMG_0174.MOV; sourceTree = "<group>"; };
+		9483DFC31B4295DC00306880 /* VideoPlayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VideoPlayer.xcodeproj; path = ../VideoPlayer/project/ios/VideoPlayer.xcodeproj; sourceTree = "<group>"; };
+		948616721B1585EB00E54464 /* WisePlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WisePlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		948616761B1585EB00E54464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		948616771B1585EB00E54464 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		948616791B1585EB00E54464 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9486167A1B1585EB00E54464 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9486167C1B1585EB00E54464 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9486167D1B1585EB00E54464 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		948616801B1585EB00E54464 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		948616821B1585EB00E54464 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		948616851B1585EB00E54464 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9486168B1B1585EB00E54464 /* WisePlayerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WisePlayerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		948616901B1585EB00E54464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		948616911B1585EB00E54464 /* WisePlayerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WisePlayerDemoTests.m; sourceTree = "<group>"; };
+		948616A61B1586AF00E54464 /* WisePlayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = WisePlayer.xcodeproj; path = ../WisePlayer/project/IOS/WisePlayer.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9486166F1B1585EB00E54464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D982381BF5B07600A5C3A2 /* libz.tbd in Frameworks */,
+				947033B61BD4E92300DC6904 /* libAudio.a in Frameworks */,
+				947033B71BD4E92300DC6904 /* libcommon.a in Frameworks */,
+				947033B81BD4E92300DC6904 /* libgraph.a in Frameworks */,
+				947033B91BD4E92300DC6904 /* libGraphic.a in Frameworks */,
+				947033BA1BD4E92300DC6904 /* libtask.a in Frameworks */,
+				9431C2AF1B66892600E84CC5 /* OpenAL.framework in Frameworks */,
+				9483DF451B3BFC5600306880 /* QuartzCore.framework in Frameworks */,
+				9483DF431B3BFC4000306880 /* OpenGLES.framework in Frameworks */,
+				9483DF2D1B3BEC8200306880 /* libiconv.2.4.0.dylib in Frameworks */,
+				9483DF2B1B3BEC7100306880 /* libbz2.1.0.dylib in Frameworks */,
+				9483DF281B3BEC6400306880 /* libz.1.2.5.dylib in Frameworks */,
+				948476571B256C1C000094DE /* libWisePlayer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		948616881B1585EB00E54464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		947033801BD4E4ED00DC6904 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				947033851BD4E4ED00DC6904 /* libAudio.a */,
+				947033871BD4E4ED00DC6904 /* AudioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9470338C1BD4E4F900DC6904 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				947033911BD4E4F900DC6904 /* libcommon.a */,
+				947033931BD4E4F900DC6904 /* commonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		947033951BD4E50600DC6904 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9470339A1BD4E50600DC6904 /* libgraph.a */,
+				9470339C1BD4E50600DC6904 /* graphTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9470339E1BD4E51400DC6904 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				947033A21BD4E51400DC6904 /* libGraphic.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		947033A41BD4E52200DC6904 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				947033A91BD4E52200DC6904 /* libtask.a */,
+				947033AB1BD4E52200DC6904 /* taskTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9483DFA41B41374B00306880 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9483DFA61B41480200306880 /* IMG_0174.MOV */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		9483DFC41B4295DC00306880 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9483DFC91B4295DC00306880 /* libVideoPlayer.a */,
+				9483DFCB1B4295DC00306880 /* VideoPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		948616691B1585EB00E54464 = {
+			isa = PBXGroup;
+			children = (
+				9483DFA41B41374B00306880 /* Resource */,
+				9486169B1B1585FB00E54464 /* Frameworks */,
+				948616741B1585EB00E54464 /* WisePlayerDemo */,
+				9486168E1B1585EB00E54464 /* WisePlayerDemoTests */,
+				948616731B1585EB00E54464 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		948616731B1585EB00E54464 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				948616721B1585EB00E54464 /* WisePlayerDemo.app */,
+				9486168B1B1585EB00E54464 /* WisePlayerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		948616741B1585EB00E54464 /* WisePlayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				948616791B1585EB00E54464 /* AppDelegate.h */,
+				9486167A1B1585EB00E54464 /* AppDelegate.m */,
+				9486167C1B1585EB00E54464 /* ViewController.h */,
+				9486167D1B1585EB00E54464 /* ViewController.mm */,
+				9486167F1B1585EB00E54464 /* Main.storyboard */,
+				948616821B1585EB00E54464 /* Images.xcassets */,
+				948616841B1585EB00E54464 /* LaunchScreen.xib */,
+				948616751B1585EB00E54464 /* Supporting Files */,
+			);
+			path = WisePlayerDemo;
+			sourceTree = "<group>";
+		};
+		948616751B1585EB00E54464 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				948616761B1585EB00E54464 /* Info.plist */,
+				948616771B1585EB00E54464 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9486168E1B1585EB00E54464 /* WisePlayerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				948616911B1585EB00E54464 /* WisePlayerDemoTests.m */,
+				9486168F1B1585EB00E54464 /* Supporting Files */,
+			);
+			path = WisePlayerDemoTests;
+			sourceTree = "<group>";
+		};
+		9486168F1B1585EB00E54464 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				948616901B1585EB00E54464 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9486169B1B1585FB00E54464 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88D982371BF5B07600A5C3A2 /* libz.tbd */,
+				947033A31BD4E52200DC6904 /* task.xcodeproj */,
+				9470339D1BD4E51400DC6904 /* Graphic.xcodeproj */,
+				947033941BD4E50600DC6904 /* graph.xcodeproj */,
+				9470338B1BD4E4F900DC6904 /* common.xcodeproj */,
+				9470337F1BD4E4ED00DC6904 /* Audio.xcodeproj */,
+				9431C2AE1B66892600E84CC5 /* OpenAL.framework */,
+				9483DFC31B4295DC00306880 /* VideoPlayer.xcodeproj */,
+				9483DF441B3BFC5600306880 /* QuartzCore.framework */,
+				9483DF421B3BFC4000306880 /* OpenGLES.framework */,
+				9483DF2C1B3BEC8200306880 /* libiconv.2.4.0.dylib */,
+				9483DF2A1B3BEC7100306880 /* libbz2.1.0.dylib */,
+				9483DF271B3BEC6400306880 /* libz.1.2.5.dylib */,
+				948616A61B1586AF00E54464 /* WisePlayer.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		948616A71B1586AF00E54464 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				948616AC1B1586B000E54464 /* libWisePlayer.a */,
+				948616AE1B1586B000E54464 /* WisePlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		948616711B1585EB00E54464 /* WisePlayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 948616951B1585EB00E54464 /* Build configuration list for PBXNativeTarget "WisePlayerDemo" */;
+			buildPhases = (
+				9486166E1B1585EB00E54464 /* Sources */,
+				9486166F1B1585EB00E54464 /* Frameworks */,
+				948616701B1585EB00E54464 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				947033AD1BD4E91700DC6904 /* PBXTargetDependency */,
+				947033AF1BD4E91700DC6904 /* PBXTargetDependency */,
+				947033B11BD4E91700DC6904 /* PBXTargetDependency */,
+				947033B31BD4E91700DC6904 /* PBXTargetDependency */,
+				947033B51BD4E91700DC6904 /* PBXTargetDependency */,
+				948476541B256C16000094DE /* PBXTargetDependency */,
+			);
+			name = WisePlayerDemo;
+			productName = WisePlayerDemo;
+			productReference = 948616721B1585EB00E54464 /* WisePlayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9486168A1B1585EB00E54464 /* WisePlayerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 948616981B1585EB00E54464 /* Build configuration list for PBXNativeTarget "WisePlayerDemoTests" */;
+			buildPhases = (
+				948616871B1585EB00E54464 /* Sources */,
+				948616881B1585EB00E54464 /* Frameworks */,
+				948616891B1585EB00E54464 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9486168D1B1585EB00E54464 /* PBXTargetDependency */,
+			);
+			name = WisePlayerDemoTests;
+			productName = WisePlayerDemoTests;
+			productReference = 9486168B1B1585EB00E54464 /* WisePlayerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9486166A1B1585EB00E54464 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = huangyi;
+				TargetAttributes = {
+					948616711B1585EB00E54464 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					9486168A1B1585EB00E54464 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 948616711B1585EB00E54464;
+					};
+				};
+			};
+			buildConfigurationList = 9486166D1B1585EB00E54464 /* Build configuration list for PBXProject "WisePlayerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 948616691B1585EB00E54464;
+			productRefGroup = 948616731B1585EB00E54464 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 947033801BD4E4ED00DC6904 /* Products */;
+					ProjectRef = 9470337F1BD4E4ED00DC6904 /* Audio.xcodeproj */;
+				},
+				{
+					ProductGroup = 9470338C1BD4E4F900DC6904 /* Products */;
+					ProjectRef = 9470338B1BD4E4F900DC6904 /* common.xcodeproj */;
+				},
+				{
+					ProductGroup = 947033951BD4E50600DC6904 /* Products */;
+					ProjectRef = 947033941BD4E50600DC6904 /* graph.xcodeproj */;
+				},
+				{
+					ProductGroup = 9470339E1BD4E51400DC6904 /* Products */;
+					ProjectRef = 9470339D1BD4E51400DC6904 /* Graphic.xcodeproj */;
+				},
+				{
+					ProductGroup = 947033A41BD4E52200DC6904 /* Products */;
+					ProjectRef = 947033A31BD4E52200DC6904 /* task.xcodeproj */;
+				},
+				{
+					ProductGroup = 9483DFC41B4295DC00306880 /* Products */;
+					ProjectRef = 9483DFC31B4295DC00306880 /* VideoPlayer.xcodeproj */;
+				},
+				{
+					ProductGroup = 948616A71B1586AF00E54464 /* Products */;
+					ProjectRef = 948616A61B1586AF00E54464 /* WisePlayer.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				948616711B1585EB00E54464 /* WisePlayerDemo */,
+				9486168A1B1585EB00E54464 /* WisePlayerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		947033851BD4E4ED00DC6904 /* libAudio.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAudio.a;
+			remoteRef = 947033841BD4E4ED00DC6904 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		947033871BD4E4ED00DC6904 /* AudioTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AudioTests.xctest;
+			remoteRef = 947033861BD4E4ED00DC6904 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		947033911BD4E4F900DC6904 /* libcommon.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcommon.a;
+			remoteRef = 947033901BD4E4F900DC6904 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		947033931BD4E4F900DC6904 /* commonTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = commonTests.xctest;
+			remoteRef = 947033921BD4E4F900DC6904 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9470339A1BD4E50600DC6904 /* libgraph.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libgraph.a;
+			remoteRef = 947033991BD4E50600DC6904 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9470339C1BD4E50600DC6904 /* graphTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = graphTests.xctest;
+			remoteRef = 9470339B1BD4E50600DC6904 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		947033A21BD4E51400DC6904 /* libGraphic.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGraphic.a;
+			remoteRef = 947033A11BD4E51400DC6904 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		947033A91BD4E52200DC6904 /* libtask.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtask.a;
+			remoteRef = 947033A81BD4E52200DC6904 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		947033AB1BD4E52200DC6904 /* taskTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = taskTests.xctest;
+			remoteRef = 947033AA1BD4E52200DC6904 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9483DFC91B4295DC00306880 /* libVideoPlayer.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libVideoPlayer.a;
+			remoteRef = 9483DFC81B4295DC00306880 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9483DFCB1B4295DC00306880 /* VideoPlayerTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = VideoPlayerTests.xctest;
+			remoteRef = 9483DFCA1B4295DC00306880 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		948616AC1B1586B000E54464 /* libWisePlayer.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libWisePlayer.a;
+			remoteRef = 948616AB1B1586B000E54464 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		948616AE1B1586B000E54464 /* WisePlayerTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = WisePlayerTests.xctest;
+			remoteRef = 948616AD1B1586B000E54464 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		948616701B1585EB00E54464 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9483DFA71B41480200306880 /* IMG_0174.MOV in Resources */,
+				948616811B1585EB00E54464 /* Main.storyboard in Resources */,
+				948616861B1585EB00E54464 /* LaunchScreen.xib in Resources */,
+				948616831B1585EB00E54464 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		948616891B1585EB00E54464 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9486166E1B1585EB00E54464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9486167E1B1585EB00E54464 /* ViewController.mm in Sources */,
+				9486167B1B1585EB00E54464 /* AppDelegate.m in Sources */,
+				948616781B1585EB00E54464 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		948616871B1585EB00E54464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948616921B1585EB00E54464 /* WisePlayerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		947033AD1BD4E91700DC6904 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = task;
+			targetProxy = 947033AC1BD4E91700DC6904 /* PBXContainerItemProxy */;
+		};
+		947033AF1BD4E91700DC6904 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Graphic;
+			targetProxy = 947033AE1BD4E91700DC6904 /* PBXContainerItemProxy */;
+		};
+		947033B11BD4E91700DC6904 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = graph;
+			targetProxy = 947033B01BD4E91700DC6904 /* PBXContainerItemProxy */;
+		};
+		947033B31BD4E91700DC6904 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = common;
+			targetProxy = 947033B21BD4E91700DC6904 /* PBXContainerItemProxy */;
+		};
+		947033B51BD4E91700DC6904 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Audio;
+			targetProxy = 947033B41BD4E91700DC6904 /* PBXContainerItemProxy */;
+		};
+		948476541B256C16000094DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WisePlayer;
+			targetProxy = 948476531B256C16000094DE /* PBXContainerItemProxy */;
+		};
+		9486168D1B1585EB00E54464 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 948616711B1585EB00E54464 /* WisePlayerDemo */;
+			targetProxy = 9486168C1B1585EB00E54464 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9486167F1B1585EB00E54464 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				948616801B1585EB00E54464 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		948616841B1585EB00E54464 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				948616851B1585EB00E54464 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		948616931B1585EB00E54464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../WisePlayer/include";
+			};
+			name = Debug;
+		};
+		948616941B1585EB00E54464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../WisePlayer/include";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		948616961B1585EB00E54464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WisePlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		948616971B1585EB00E54464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WisePlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		948616991B1585EB00E54464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WisePlayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WisePlayerDemo.app/WisePlayerDemo";
+			};
+			name = Debug;
+		};
+		9486169A1B1585EB00E54464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WisePlayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WisePlayerDemo.app/WisePlayerDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9486166D1B1585EB00E54464 /* Build configuration list for PBXProject "WisePlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				948616931B1585EB00E54464 /* Debug */,
+				948616941B1585EB00E54464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		948616951B1585EB00E54464 /* Build configuration list for PBXNativeTarget "WisePlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				948616961B1585EB00E54464 /* Debug */,
+				948616971B1585EB00E54464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		948616981B1585EB00E54464 /* Build configuration list for PBXNativeTarget "WisePlayerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				948616991B1585EB00E54464 /* Debug */,
+				9486169A1B1585EB00E54464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9486166A1B1585EB00E54464 /* Project object */;
+}
