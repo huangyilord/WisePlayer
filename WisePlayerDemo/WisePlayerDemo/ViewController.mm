@@ -31,10 +31,10 @@
     [self.view addSubview:player.view];
     CGRect bound = self.view.bounds;
     player.view.frame = CGRectMake( bound.origin.x, bound.origin.y, bound.size.width, bound.size.height - 200 );
-    //NSString* path = [[NSBundle mainBundle] pathForResource:@"IMG_0147" ofType:@"MOV"];
+    NSString* path = [[NSBundle mainBundle] pathForResource:@"IMG_0174" ofType:@"MOV"];
     //NSString* path = @"rtmp://103.231.144.125:1935/live/test1";
     //NSString* path = @"http://103.231.144.125:1935/live/test1/playlist.m3u8";
-    NSString* path = @"http://vodtest.8686c.com/media/mobile/1000/1110/0000/0000/0000/0000/0022/ryBMbmsOcyPjMkJlWwdUsneVQHwydAe3930_1.mp4";
+    //NSString* path = @"http://vodtest.8686c.com/media/mobile/1000/1110/0000/0000/0000/0000/0022/ryBMbmsOcyPjMkJlWwdUsneVQHwydAe3930_1.mp4";
     [player setURL:path];
     isPrepared = NO;
     isPlaying = NO;

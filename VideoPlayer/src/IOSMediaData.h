@@ -13,7 +13,7 @@
 
 extern "C"
 {
-#include "libavfilter/avcodec.h"
+#include "libavfilter/avfilter.h"
 #include "libavformat/avformat.h"
 }
 

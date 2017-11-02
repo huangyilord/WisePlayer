@@ -125,16 +125,16 @@ bool FFMpegStream::GetData()
             CommitOutputBuffer( FFMPEG_VIDEO_PACKAGE );
         }
     }
-    else if ( m_tempPacket.stream_index == m_audioStreamNumber )
-    {
-        FFMpegAudioPackage* package = (FFMpegAudioPackage*)GetOutputBuffer( FFMPEG_AUDIO_PACKAGE, sizeof(FFMpegAudioPackage) );
-        if ( NULL != package )
-        {
-            av_packet_move_ref( &package->packet, &m_tempPacket );
-            package->codecContext = m_pAudioCodecContext;
-            CommitOutputBuffer( FFMPEG_AUDIO_PACKAGE );
-        }
-    }
+//    else if ( m_tempPacket.stream_index == m_audioStreamNumber )
+//    {
+//        FFMpegAudioPackage* package = (FFMpegAudioPackage*)GetOutputBuffer( FFMPEG_AUDIO_PACKAGE, sizeof(FFMpegAudioPackage) );
+//        if ( NULL != package )
+//        {
+//            av_packet_move_ref( &package->packet, &m_tempPacket );
+//            package->codecContext = m_pAudioCodecContext;
+//            CommitOutputBuffer( FFMPEG_AUDIO_PACKAGE );
+//        }
+//    }
     av_free_packet( &m_tempPacket );
     return true;
 }
